@@ -1,0 +1,27 @@
+.historico{
+    width: 100%;
+}
+
+.tabela{
+    table{
+        width: 35rem;
+    }
+    tbody, thead{
+        display: block;
+    }
+    tbody{
+        height: 8rem;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    tbody td, thead th {
+        width: 8rem;
+    }
+}
+
+.filtro{
+    display: flex;
+    label:first-child{
+        margin-right: 2rem;
+    }
+}
